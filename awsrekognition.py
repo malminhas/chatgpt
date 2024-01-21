@@ -48,7 +48,7 @@ def drawBoundingBox(im_file, response):
     return modified_im_file
 
 if __name__ == '__main__':
-    im_file = 'generated_image.png'
+    im_file = 'test_dalle.png'
     response = formatLabels(im_file)
     modified_file = drawBoundingBox(im_file,response)
     print(f'Generated modified file in {modified_file}')
